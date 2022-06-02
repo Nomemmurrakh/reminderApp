@@ -1,0 +1,51 @@
+{
+    "products" : [
+        {
+            "id" : 1,
+            "url" : "https://minnetonkaorchards.com/wp-content/uploads/2021/04/Bright-Red-Apple.jpg.webp",
+            "name" : "Apple",
+            "category" : "Fruits"
+        },
+        {
+            "id" : 2,
+            "url" : "https://5.imimg.com/data5/SELLER/Default/2020/12/QB/AA/WQ/21442513/cabbage-500x500.jpg",
+            "name" : "Cabbage",
+            "category" : "Vegetables"
+        }
+    ],
+
+    "categories" : [
+        "Fruits",
+        "Vegetables"
+    ],
+
+    "orders" : [
+        {
+            "items" : [
+                {
+                    "product" : {
+                        "id" : 1,
+                        "url" : "https://minnetonkaorchards.com/wp-content/uploads/2021/04/Bright-Red-Apple.jpg.webp",
+                        "name" : "Apple",
+                        "category" : "Fruits"
+                    },
+                    "quantity" : 2
+                }
+            ]
+        }
+    ],
+
+    "cart" : {
+        "items" : [
+            {
+                "product" : {
+                    "id" : 1,
+                    "url" : "https://minnetonkaorchards.com/wp-content/uploads/2021/04/Bright-Red-Apple.jpg.webp",
+                    "name" : "Apple",
+                    "category" : "Fruits"
+                },
+                "quantity" : 2
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "foody",
+  "version": "1.0.0",
+  "description": "eCommerce Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "foods"
+  ],
+  "author": "Khuram",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
