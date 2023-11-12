@@ -1,51 +1,49 @@
 {
-    "products" : [
+    "reminders" : [
         {
             "id" : 1,
-            "url" : "https://minnetonkaorchards.com/wp-content/uploads/2021/04/Bright-Red-Apple.jpg.webp",
-            "name" : "Apple",
-            "category" : "Fruits"
+            "title" : "Exercise",
+            "location" : {
+                "lat" : 25.4061485,
+                "lng" : 68.3367317
+            },
+            "timestamp" : 1701395066
         },
         {
-            "id" : 2,
-            "url" : "https://5.imimg.com/data5/SELLER/Default/2020/12/QB/AA/WQ/21442513/cabbage-500x500.jpg",
-            "name" : "Cabbage",
-            "category" : "Vegetables"
-        }
-    ],
-
-    "categories" : [
-        "Fruits",
-        "Vegetables"
-    ],
-
-    "orders" : [
+            "id": 2,
+            "title": "Meeting",
+            "location": {
+              "lat": 25.3844298,
+              "lng": 68.3571412
+            },
+            "timestamp": 1701398666
+        },
         {
-            "items" : [
-                {
-                    "product" : {
-                        "id" : 1,
-                        "url" : "https://minnetonkaorchards.com/wp-content/uploads/2021/04/Bright-Red-Apple.jpg.webp",
-                        "name" : "Apple",
-                        "category" : "Fruits"
-                    },
-                    "quantity" : 2
-                }
-            ]
+            "id": 3,
+            "title": "Grocery Shopping",
+            "location": {
+              "lat": 25.3763483,
+              "lng": 68.3360594
+            },
+            "timestamp": 1701402266
+        },
+        {
+            "id": 4,
+            "title": "Dentist Appointment",
+            "location": {
+              "lat": 25.3929412,
+              "lng": 68.3616089
+            },
+            "timestamp": 1701405866
+        },
+        {
+            "id": 5,
+            "title": "Study Session",
+            "location": {
+              "lat": 25.3623787,
+              "lng": 68.3379279
+            },
+            "timestamp": 1701409466
         }
-    ],
-
-    "cart" : {
-        "items" : [
-            {
-                "product" : {
-                    "id" : 1,
-                    "url" : "https://minnetonkaorchards.com/wp-content/uploads/2021/04/Bright-Red-Apple.jpg.webp",
-                    "name" : "Apple",
-                    "category" : "Fruits"
-                },
-                "quantity" : 2
-            }
-        ]
-    }
+    ]
 }
